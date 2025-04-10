@@ -1,0 +1,97 @@
+{
+    "name": "Robo Trader Bitcoin com Alertas deste e do outro mundo",
+    "lists": [
+        {
+            "name": "Backlog",
+            "cards": [
+                {
+                    "name": "Vis\u00e3o do Projeto",
+                    "desc": "Rob\u00f4 que monitora o pre\u00e7o do BTC e eventos pol\u00edticos, alerta via app Android."
+                },
+                {
+                    "name": "Requisitos futuros",
+                    "desc": "An\u00e1lise de sentimento e machine learning (fase 2)."
+                },
+                {
+                    "name": "Tecnologias",
+                    "desc": "Python (backend) e Kotlin/Java (frontend Android)."
+                }
+            ]
+        },
+        {
+            "name": "Planejamento / To Do",
+            "cards": [
+                {
+                    "name": "Coleta de Dados",
+                    "desc": "Implementar coleta do pre\u00e7o do BTC com API p\u00fablica (CoinGecko ou CoinMarketCap)."
+                },
+                {
+                    "name": "Coleta de Dados",
+                    "desc": "Implementar busca por manchetes pol\u00edticas com keywords (usando NewsAPI ou scraping)."
+                },
+                {
+                    "name": "Coleta de Dados",
+                    "desc": "Criar um agendador (ex: `schedule` ou `APScheduler`) para executar a coleta de hora em hora."
+                },
+                {
+                    "name": "An\u00e1lise de Dados",
+                    "desc": "Implementar verifica\u00e7\u00e3o de varia\u00e7\u00f5es bruscas no pre\u00e7o (ex: >3% em 30 min)."
+                },
+                {
+                    "name": "An\u00e1lise de Dados",
+                    "desc": "Criar lista de palavras-chave pol\u00edticas: 'Fed', 'regula\u00e7\u00e3o', 'China', 'inflation', 'sanctions'."
+                },
+                {
+                    "name": "An\u00e1lise de Dados",
+                    "desc": "Correlacionar aumento ou queda do BTC com manchetes de impacto."
+                },
+                {
+                    "name": "An\u00e1lise de Dados",
+                    "desc": "Classificar alerta como: Forte / Neutro / Fraco."
+                },
+                {
+                    "name": "Alertas e Integra\u00e7\u00e3o",
+                    "desc": "Definir canal de alerta (Firebase Cloud Messaging, Push Notification, Telegram, etc.)."
+                },
+                {
+                    "name": "Alertas e Integra\u00e7\u00e3o",
+                    "desc": "Criar app Android com tela de alerta."
+                },
+                {
+                    "name": "Alertas e Integra\u00e7\u00e3o",
+                    "desc": "Criar integra\u00e7\u00e3o Python \u2192 App Android (ex: via Firebase Realtime Database ou API pr\u00f3pria)."
+                }
+            ]
+        },
+        {
+            "name": "Em Desenvolvimento",
+            "cards": []
+        },
+        {
+            "name": "Testes",
+            "cards": [
+                {
+                    "name": "Testar leitura de dados de pre\u00e7o + not\u00edcias em tempo real",
+                    "desc": "Verificar se o script coleta e processa os dados corretamente."
+                },
+                {
+                    "name": "Simular eventos pol\u00edticos para testar se o alerta \u00e9 disparado corretamente",
+                    "desc": "Criar cen\u00e1rios e verificar se o alerta dispara."
+                },
+                {
+                    "name": "Testar notifica\u00e7\u00e3o push no Android em tempo real",
+                    "desc": "Verificar se o app Android recebe as notifica\u00e7\u00f5es corretamente."
+                },
+                {
+                    "name": "Verificar estabilidade em execu\u00e7\u00e3o cont\u00ednua do script Python",
+                    "desc": "Garantir que o rob\u00f4 funcione 24/7 sem problemas."
+                }
+            ]
+        },
+        {
+            "name": "Conclu\u00eddo",
+            "cards": []
+        }
+    ],
+    "members": []
+}
