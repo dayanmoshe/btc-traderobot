@@ -1,6 +1,7 @@
 # Robo Trader Bitcoin com Alertas 
 
-Este projeto tem como objetivo criar um robô trader que monitora o preço do Bitcoin e eventos políticos, temporais, economico e numerológios, enviando alertas via app Android.
+Este projeto tem como objetivo desenvolver um robô trader que monitora o preço do Bitcoin a partir de um intervalo de valorizacao ou desvalorizacao do btc, correlacionadno quando possivel a eventos políticos, temporais, economico e numerológicos, enviando alertas via app Android.
+Este projeto nao tera vinculo com nenhuma plataforma de trading e nao fará em primeiro momento negociaçoes. A proposta é fazer análise dos dados para encontrar correlacoes.
 
 ## Funcionalidades
 - Monitoramento do preço do Bitcoin em tempo real.
